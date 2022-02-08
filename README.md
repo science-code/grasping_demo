@@ -175,10 +175,10 @@ sensor_msgs/PointCloud2 cloud
 QUESTIONS :
 
 1. **Create the message** `grasping_tp/BoundingBoxCoord` **which represents the rectangle that surrounds an object in an image**
-[Solution](https://github.com/ROBOBREIZH/grasping_tp_solution/blob/master/msg/BoundingBoxCoord.msg)
+[Solution](https://github.com/Maelic/grasping_demo/tree/master/grasping_tp_solution/msg/BoundingBoxCoord.msg)
 
 2. **Create the service file** `object_detection` **which takes the time as input and returns the message above**
-[Solution](https://github.com/ROBOBREIZH/grasping_tp_solution/blob/master/srv/object_detection.srv)
+[Solution](https://github.com/Maelic/grasping_demo/tree/master/grasping_tp_solution/srv/object_detection.srv)
 
 ---
 
@@ -207,7 +207,7 @@ QUESTIONS :
 
 7. **We return this message**
 
-[Solution](https://github.com/ROBOBREIZH/grasping_tp_solution/blob/master/src/detection_node.py)
+[Solution](https://github.com/Maelic/grasping_demo/tree/master/grasping_tp_solution/src/detection_node.py)
 
 ---
 
@@ -263,13 +263,13 @@ geometry_msgs/Point sample # point at which the grasp was found
 QUESTIONS :
 
 1. **Create the message returned by the service which contains all the calculated configurations**
-[Solution](https://github.com/ROBOBREIZH/grasping_tp_solution/blob/master/msg/GraspConfigList.msg)
+[Solution](https://github.com/Maelic/grasping_demo/tree/master/grasping_tp_solution/msg/GraspConfigList.msg)
 
 2. **Create the message to perform an input request (for function the input service needs a point cloud and a bounding box)**
-[Solution](https://github.com/ROBOBREIZH/grasping_tp_solution/blob/master/msg/GraspServerRequest.msg)
+[Solution](https://github.com/Maelic/grasping_demo/tree/master/grasping_tp_solution/msg/GraspServerRequest.msg)
 
 3. **Create the service file** `detect_grasps` **which takes an input request and returns the calculated configurations**
-[Solution](https://github.com/ROBOBREIZH/grasping_tp_solution/blob/master/srv/detect_grasps.srv)
+[Solution](https://github.com/Maelic/grasping_demo/tree/master/grasping_tp_solution/srv/detect_grasps.srv)
 
 ---
 
@@ -286,7 +286,7 @@ QUESTIONS :
 
 3. **We apply this configuration**
 
-[Solution](https://github.com/ROBOBREIZH/grasping_tp_solution/blob/master/src/grasping_node.py)
+[Solution](https://github.com/Maelic/grasping_demo/tree/master/grasping_tp_solution/src/grasping_node.py)
 
 ---
 
@@ -336,7 +336,7 @@ QUESTIONS :
 
 6. **We return the arm positions and the configurations**
 
-[Solution](https://github.com/ROBOBREIZH/grasping_tp_solution/blob/master/src/grasping_service.cpp)
+[Solution](https://github.com/Maelic/grasping_demo/tree/master/grasping_tp_solution/src/grasping_service.cpp)
 
 ---
 
