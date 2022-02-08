@@ -1,0 +1,3 @@
+[submodule "hsrb_robocup_dspl_docker"]
+	path = hsrb_robocup_dspl_docker
+	url = https://github.com/hsr-project/hsrb_robocup_dspl_docker.git
