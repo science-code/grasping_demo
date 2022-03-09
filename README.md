@@ -49,6 +49,7 @@ You must now restart your session.
 Download the submodules:
 
 ```bash
+git submodule add https://github.com/hsr-project/hsrb_robocup_dspl_docker.git hsrb_robocup_dspl_docker
 git submodule init
 git submodule update
 ```
