@@ -98,10 +98,10 @@ To perform operations on point clouds we will use PCL (Point Cloud Library) whic
 
 However, GPD and PCL are C ++ libraries, so the input service will be written in C ++.
 
-To start, create your `package ROS`:
+To start, create your `ROS package`:
 
 ```bash
-# Dans le conteneur
+# (Within the container, in the window http://localhost:3001)
 cd src
 catkin_create_pkg grasping_tp rospy roscpp
 ```
@@ -112,7 +112,7 @@ catkin_create_pkg grasping_tp rospy roscpp
 
 ---
 
-The `node ROS` which will allow image analysis will work thanks to [yolo](https://github.com/AlexeyAB/darknet) a neural network capable of identifying objects on an image. We will use more particularly `tiny yolo` which is a lighter version, but also a little less precise than `yolo`.
+The `ROS node` which will allow image analysis will work thanks to [yolo](https://github.com/AlexeyAB/darknet) a neural network capable of identifying objects on an image. We will use more particularly `tiny yolo` which is a lighter version, but also a little less precise than `yolo`.
 
 ### Compile yolo
 
